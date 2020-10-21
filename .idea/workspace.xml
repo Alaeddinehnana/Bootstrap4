@@ -4,6 +4,8 @@
     <list default="true" id="16c462a5-2a2c-432c-b04d-e8c588d5970c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,7 +44,7 @@
       <workItem from="1602709046517" duration="2292000" />
       <workItem from="1602969328191" duration="1193000" />
       <workItem from="1603042270402" duration="6248000" />
-      <workItem from="1603297945331" duration="2351000" />
+      <workItem from="1603297945331" duration="6051000" />
     </task>
     <servers />
   </component>
@@ -50,6 +52,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1603307405658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603307405658" />
     <state x="359" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1603297966252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
