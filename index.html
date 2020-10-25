@@ -278,60 +278,6 @@
             </div>
         </div>
 
-        <!--assignment 2 task1-->
-        <!--<div class="row row-content align-items-center" id="testform">
-            <div class="col-12 col-sm-8">
-                <div class="card" id="Table">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group row">
-                                <label class="col-md-2 col-form-label">Number of Guests</label>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">1</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">2</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                    <label class="form-check-label" for="inlineRadio3">3</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                                    <label class="form-check-label" for="inlineRadio4">4</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
-                                    <label class="form-check-label" for="inlineRadio5">5</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
-                                    <label class="form-check-label" for="inlineRadio6">6</label>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="date" class="col-12 col-md-2 col-form-label">Date and Time</label>
-                                <div class="col-5 col-md-3">
-                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
-                                </div>
-                                <div class="col-7 col-md-7">
-                                    <input type="time" class="form-control" id="time" name="time" placeholder="Time">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="offset-md-2 col-md-10">
-                                    <button type="submit" class="btn btn-primary">Reserve</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <!--fin task1-->
     </div>
 
     <footer>
@@ -379,37 +325,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!--<script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>-->
-<script>
-    $(document).ready(function () {
-        $('#mycarousel').carousel({interval: 1000});
-        $('#carouselButton').click(function () {
-            if ($('#carouselButton').children('span').hasClass('fa-pause')) {
-                $('#mycarousel').carousel('pause');
-                $('#carouselButton').children('span').removeClass('fa-pause');
-                $('#carouselButton').children('span').addClass('fa-play');
-                }
-                else if ($('#carouselButton').children('span').hasClass('fa-play')) {
-                $('#mycarousel').carousel('cycle');
-                $('#carouselButton').children('span').removeClass('fa-play');
-                $('#carouselButton').children('span').addClass('fa-pause');
-                }
-            
-        });
-        /*assignment 4 task 2 and 3*/
-        $('#reserveButton').click(function() {
-            $('#reserveModal').modal('show');
-        });
-        $('#loginButton').click(function() {
-            $('#loginModal').modal('show');
-        });
-    });
-
-</script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
