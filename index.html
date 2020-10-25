@@ -31,8 +31,7 @@
                 <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
             </ul>
             <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
+                    <a id="loginButton"><span class="fa fa-sign-in"></span> Login</a>
                 </span>
         </div>
     </div>
@@ -158,8 +157,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <a data-toggle="modal" data-target="#reserveModal" class="btn btn-block btn-warning nav-link"
-                       role="button">Reserve Table</a>
+                    <button type="button" class="btn btn-block nav-link btn-warning" id="reserveButton">Reserve table</button>
                 </div>
             </div>
         </div>
@@ -402,7 +400,13 @@
                 }
             
         });
-        
+        /*assignment 4 task 2 and 3*/
+        $('#reserveButton').click(function() {
+            $('#reserveModal').modal('show');
+        });
+        $('#loginButton').click(function() {
+            $('#loginModal').modal('show');
+        });
     });
 
 </script>

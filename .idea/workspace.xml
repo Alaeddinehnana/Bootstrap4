@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c462a5-2a2c-432c-b04d-e8c588d5970c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles-old.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles-old.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +51,7 @@
       <workItem from="1603297945331" duration="7437000" />
       <workItem from="1603384588946" duration="8299000" />
       <workItem from="1603456671929" duration="6914000" />
-      <workItem from="1603567000851" duration="1206000" />
+      <workItem from="1603567000851" duration="3028000" />
     </task>
     <servers />
   </component>
@@ -63,9 +67,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="359" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603567023796" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1603483957357">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1603584472608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603483957357" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603584472608" />
   </component>
 </project>
