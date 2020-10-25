@@ -82,19 +82,19 @@ body{
 
 /*assignment 4 task 4*/
 .modal-content {
-  border: 0px;
+  border : 0px;
 
   .modal-body {
-    background: $background-light;
+    background : $background-light;
   }
 
   .modal-header {
-    background: $background-dark;
-    color: floralwhite;
-    border: 0px;
+    background : $background-dark;
+    color      : floralwhite;
+    border     : 0px;
 
     .close {
-      color: floralwhite;
+      color : floralwhite;
     }
 
   }
