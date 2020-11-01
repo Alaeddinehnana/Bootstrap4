@@ -6,14 +6,14 @@ pipeline {
             steps{
                 script{
                     bat "git clone https://github.com/Alaeddinehnana/Bootstrap4"
-                    bat "mvn clean -f timesheet"
+                    bat "mvn clean -f Bootstrap4"
                 }
             }
         }
         
         stage('Test'){
             steps{
-                bat "mvn test -f timesheet"
+                bat "mvn test -f Bootstrap4"
             }
         }
         
