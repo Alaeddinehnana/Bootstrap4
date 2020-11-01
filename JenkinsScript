@@ -3,7 +3,18 @@ pipeline {
     stages{
         
         stage ('Clone and clean repository'){
-            echo 'hello'
+            steps{
+                script{
+                    bat "git clone https://github.com/Alaeddinehnana/Bootstrap4"
+                    bat "mvn clean -f timesheet"
+                }
+            }
         }
-    }
-}
+        
+        stage('Test'){
+            steps{
+                bat "mvn test -f timesheet"
+            }
+        }
+        
+        }
