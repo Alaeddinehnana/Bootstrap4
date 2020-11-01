@@ -1,5 +1,9 @@
 pipeline {
-
-            echo "hello"
-       
+    agent any
+    stages{
+        
+        stage ('Clone and clean repository'){
+            echo 'hello'
+        }
+    }
 }
